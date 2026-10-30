@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Shan Iyer · Dystopian</title>
+<meta name="description" content="A homepage idea made by Sparsh Saini for Shan Iyer. Not their official site.">
+<meta property="og:title" content="Shan Iyer · Dystopian (a homepage idea)">
+<meta property="og:description" content="A homepage idea made by Sparsh Saini for Shan Iyer. Not their official site.">
+<meta property="og:image" content="https://sparshsainied-prog.github.io/shaniyer/img/og.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/dystopian.jpg">
+<style>
+:root{--bg:#0b0f1a;--ink:#eef2f8;--acc:#ffb43a;--soft:#8e9ab0;--panel:#ffb43a;--btn:#0b0f1a}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg)}
+body{background:var(--bg);color:var(--ink);font:1.1rem/1.65 'Rajdhani',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--acc)}
+.strip{background:var(--ink);color:var(--bg);font-size:.85rem;text-align:center;padding:.5rem 16px}
+h1,h2,h3,.t{font-family:'Rajdhani',system-ui,sans-serif;font-weight:700;line-height:1}
+nav.top{position:fixed;z-index:30;right:12px;top:48px;display:flex;gap:1.1rem;background:var(--bg);border:1px solid var(--ink);padding:.45rem 1rem}
+nav.top a{color:var(--ink);text-decoration:none;font:600 .95rem 'Rajdhani',system-ui,sans-serif}
+@media(max-width:700px){nav.top{top:auto;bottom:12px;right:50%;transform:translateX(50%);white-space:nowrap}}
+.hero{position:relative;height:380vh}
+.stage{position:sticky;top:0;height:100vh;height:100svh;overflow:hidden;background:var(--bg)}
+.bk{position:absolute;left:0;top:0;width:var(--bw);will-change:transform;transform-origin:50.0% 34.0%}
+.bk img{display:block;width:100%;height:auto;box-shadow:0 18px 40px rgba(0,0,0,.28)}
+.copy{position:absolute;z-index:4;left:20px;right:20px;bottom:70px;text-align:center;opacity:0;will-change:opacity}
+.copy h1{font-size:clamp(2.4rem,11vw,4.4rem);color:var(--ink)}
+.copy .lab{font:600 1.15rem 'Rajdhani',system-ui,sans-serif;margin:.5rem 0 1rem;color:var(--acc)}
+.btns{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center}.btns.l{justify-content:flex-start}
+.btn{font:600 1rem 'Rajdhani',system-ui,sans-serif;text-decoration:none;color:var(--btn);background:var(--acc);padding:.7rem 1.4rem;border:2px solid var(--acc);border-radius:0}
+.btn.o{background:transparent;color:var(--acc)}
+@media(max-width:899px){.stage::after{content:"";position:absolute;left:0;right:0;bottom:0;height:34%;background:linear-gradient(transparent,var(--bg) 62%);pointer-events:none;z-index:3}}
+@media(min-width:900px){.copy{left:auto;right:6vw;width:36vw;top:50%;bottom:auto;transform:translateY(-50%);text-align:left}.btns{justify-content:flex-start}}
+section.s{max-width:1040px;margin:0 auto;padding:5.5rem 20px}
+h2{font-size:clamp(2rem,6vw,3.2rem);margin-bottom:1.6rem}
+.bkrow{display:grid;gap:2rem;align-items:center;margin-bottom:3.5rem}
+.bkrow img{width:min(230px,62%);display:block;margin:0 auto;box-shadow:0 14px 30px rgba(0,0,0,.28)}
+.bkrow h3{font-size:1.9rem;margin-bottom:.8rem}
+.bkrow p{margin-bottom:.8rem;max-width:56ch}
+@media(min-width:780px){.bkrow{grid-template-columns:260px 1fr;gap:3rem}}
+.about{max-width:60ch}.about p{margin-bottom:1rem}
+.fair{background:var(--panel);color:var(--bg);padding:2.2rem 1.5rem;display:grid;gap:1rem;align-items:center}
+.fair h2{color:var(--bg);margin-bottom:.5rem}.fair a{color:var(--bg)}
+@media(min-width:780px){.fair{grid-template-columns:1fr auto}}
+.fair .big{font-size:clamp(2.2rem,8vw,3.6rem)}
+.find{margin-top:2.2rem}
+footer{text-align:center;color:var(--soft);font-size:.9rem;padding:3rem 16px 6rem;border-top:1px solid var(--soft)}
+@media (prefers-reduced-motion:reduce){.hero{height:auto}.stage{position:relative;height:auto;padding:2rem 20px 7rem;min-height:100svh}.bk{position:relative;margin:0 auto 1.4rem;width:min(60vw,280px)!important;transform:none!important}.copy{position:relative;opacity:1!important;left:auto;right:auto;bottom:auto;top:auto;width:auto;transform:none!important;text-align:center}.btns{justify-content:center}.stage::after{display:none}}
+</style>
+</head>
+<body>
+<div class="strip">A homepage idea made by Sparsh Saini for Shan Iyer. Not their official site.</div>
+<nav class="top" aria-label="Sections"><a href="#books">Books</a><a href="#about">Shan</a><a href="#meet">Events</a></nav>
+<header class="hero">
+  <div class="stage" id="stage">
+    <div class="bk" id="bk" role="img" aria-label="Dystopian by Shan Iyer: a glowing orange window in a dark tower block"><img src="img/dystopian.jpg" alt="" width="512" height="800"></div>
+    <div class="copy" id="copy">
+      <h1>Dystopian</h1>
+      <div class="lab">Book one of the Cyn trilogy</div>
+      <div class="btns"><a class="btn" href="https://www.amazon.com/dp/B0FMR37Q49">Read it on Amazon</a><a class="btn o" href="#meet">Find me at book fairs</a></div>
+    </div>
+  </div>
+</header>
+<main>
+<section class="s" id="books">
+  <h2>Dark speculative fiction</h2>
+  <div class="bkrow"><img src="img/dystopian.jpg" alt="Dystopian" width="512" height="800" loading="lazy"><div><h3>Dystopian</h3><p>Book one of the Cyn trilogy. A fascist faction controls mainland America. A man has to decide: join the ruling elite among the Nation&#x27;s top one per cent, or defect to the Dark Underground.</p><div class="btns l"><a class="btn" href="https://www.amazon.com/dp/B0FMR37Q49">Amazon</a><a class="btn o" href="https://shaniyer.com/dystopian/">More on my site</a></div></div></div><div class="bkrow"><img src="img/arabiya.jpg" alt="Tales from New Arrabiya (Part I)" width="700" height="1117" loading="lazy"><div><h3>Tales from New Arrabiya (Part I)</h3><p>A New Arabian Chronicles short story collection.</p><div class="btns l"><a class="btn" href="https://shaniyer.com/tales-from-new-arabiyya/">Read about it</a></div></div></div><div class="bkrow"><img src="img/sentinels.jpg" alt="The Six Sentinels" width="513" height="665" loading="lazy"><div><h3>The Six Sentinels</h3><p>Non-fiction. A deep critique of capitalism, the corporation, the failures of the state and the media&#x27;s role in society.</p><div class="btns l"><a class="btn" href="https://www.amazon.com/Six-Sentinels-Impeding-Humanitys-Accession-ebook/dp/B0F8SJT3KW">Amazon (ebook)</a><a class="btn o" href="https://shaniyer.com/books/the-six-sentinels-audiobook/">Audiobook</a></div></div></div>
+</section>
+<section class="s" id="about">
+  <h2>Shan</h2>
+  <div class="about"><p>Dark speculative fiction, fractured futures, political imagination, and stories about truth, power, memory and resistance.</p><p>I&#x27;m working on Sands and Sihr, a 143,000 word Arabian science fantasy, and pitching a non-fiction work, a revisionist theory of Marxism, to agents and publishers (from my June 2026 post).</p></div>
+</section>
+<section class="s" id="meet">
+  <div class="fair">
+    <div><h2>Where I&#x27;ve set up a stall</h2><p>Te Manawa book festival, North West Library, Massey, Auckland. Over 30 stalls for indie writers, publishers and comic artists.</p><p><a href="https://events.humanitix.com/indie-writers-festival-2026">Festival page</a></p></div>
+    <div class="big t">29 Aug 2026</div>
+  </div>
+  <p class="find">More at <a href="https://shaniyer.com">shaniyer.com</a>, and on <a href="https://www.instagram.com/shan.iyer.author/">Instagram</a>, <a href="https://substack.com/@shaniyer">Substack</a> and <a href="https://www.youtube.com/@Shan.Iyer.writer">YouTube</a>.</p>
+</section>
+</main>
+<footer>A mockup made by Sparsh Saini for Shan Iyer. Not affiliated, not live.</footer>
+<script>
+(()=>{const hero=document.querySelector('.hero'),stage=document.getElementById('stage'),copy=document.getElementById('copy'),bk=document.getElementById('bk');
+if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+let W,H,bw,bh,rx,ry,ht,tick=false;const cl=v=>Math.max(0,Math.min(1,v)),eio=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const R=0.6400,S0=2.2;
+function measure(){W=innerWidth;H=stage.clientHeight;const d=W>=900;bh=d?H*.72:Math.min(H*.58,W*.82/R);bw=bh*R;bk.style.setProperty('--bw',bw+'px');rx=d?W*.3-bw/2:W/2-bw/2;ry=d?H/2-bh/2:H*.05;ht=hero.offsetHeight-H;draw()}
+function draw(){tick=false;const p=cl((scrollY-hero.offsetTop)/ht);
+ const z=eio(cl(p/.72));const s=S0-(S0-1)*z;
+ // start deep in the cover, pull back until the whole cover sits in its place
+ const fx=bw*0.5,fy=bh*0.34;
+ const tx=(1-z)*(W/2-fx)+z*rx,ty=(1-z)*(H*.4-fy)+z*ry;
+ bk.style.transform=`translate(${tx}px,${ty}px) scale(${s})`;
+ const c=cl((p-.8)/.14);copy.style.opacity=c.toFixed(3);copy.style.transform=(W>=900?'translateY(-50%) ':'')+`translateY(${(1-c)*14}px)`}
+addEventListener('scroll',()=>{if(!tick){tick=true;requestAnimationFrame(draw)}},{passive:true});addEventListener('resize',measure);measure()})();
+</script>
+</body>
+</html>
